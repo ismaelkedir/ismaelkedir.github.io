@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ISMAEL KEDIR</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="./assets/css/main-dist.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- jQuery script-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- All the custom scripts-->
+    <script src="./assets/js/functions-dist.js"></script>
+  </head>
+  <body class="noOverFlow">
+    <div class="loader">
+      <div class="spinner">
+        <p>Loading</p>
+        <noscript><br>
+          <p>Sorry, Your browser does not support javascript or has been turned off</p>
+        </noscript>
+      </div>
+    </div>
+    <div class="pri-nav">
+      <div class="header-container">
+        <div class="stay-middle">
+          <div class="mobile-nav">
+                  <ul>
+                    <li><a href="#about-section" id="about">About</a></li>
+                    <li><a href="#design-section" id="design">Design</a></li>
+                    <li><a href="#coding-section" id="coding">Coding</a></li>
+                    <li><a href="#youtube-section" id="youtube">YouTube</a></li>
+                    <li><a href="#gebeya-section" id="gebeya">Status</a></li>
+                    <li><a href="#bio-section" id="bio">Bio</a></li>
+                    <li><a href="#contact-section" id="contact">Contact</a></li>
+                  </ul>
+          </div>
+          <header>
+            <nav><a class="logo" href="index.html"></a>
+                    <ul>
+                      <li><a href="#about-section" id="about">About</a></li>
+                      <li><a href="#design-section" id="design">Design</a></li>
+                      <li><a href="#coding-section" id="coding">Coding</a></li>
+                      <li><a href="#youtube-section" id="youtube">YouTube</a></li>
+                      <li><a href="#gebeya-section" id="gebeya">Status</a></li>
+                      <li><a href="#bio-section" id="bio">Bio</a></li>
+                      <li><a href="#contact-section" id="contact">Contact</a></li>
+                    </ul>
+              <div class="burger-menu"><span></span></div>
+            </nav>
+          </header>
+        </div>
+      </div>
+    </div>
+    <div class="home-sections">
+      <section id="about-section">
+        <div class="stay-middle">
+          <div class="flexible flex-center">
+            <div class="col-2">
+              <div class="hero"></div>
+              <h1 class="intro_hello">HELLO</h1>
+              <h2 class="intro_headline">I'm Ismael from Ethiopia</h2>
+              <hr class="_hr">
+              <p class="small_p">Do you want to know how I spend my time on computers?</p>
+              <div class="intro_btn"><a class="fa-chevron-down" href="#design-section" title="Find out" id="design"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="design-section">
+        <div class="stay-middle">
+          <div class="flexible flex-spaced">
+            <div class="col-1">
+              <div class="device-image"><img class="devices" src="./assets/img/devices.png"></div>
+            </div>
+            <div class="col-1 cta-first">
+              <p> Designing beautiful and responsive Websites</p><a class="cta-btn cta-btn-sec" href="../pages/design.html">Design works</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="coding-section">
+        <div class="stay-middle">
+          <div class="flexible flex-spaced">
+            <div class="col-1">
+              <div class="code-window">Android, Angular, javascript, html5, css3, jade, Sass<span class="code-cursor"></span></div>
+            </div>
+            <div class="col-1">
+              <p> Writing code and making apps that work</p><a class="cta-btn cta-btn-pri" href="../pages/coding.html">Achievements</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="youtube-section">
+        <div class="stay-middle">
+          <div class="flexible flex-spaced">
+            <div class="col-1">
+              <iframe class="yt-video" src="https://www.youtube.com/watch?v=5aYTRXhVWFA"></iframe>
+            </div>
+            <div class="col-1 cta-first">
+              <p> Uploading videos on YouTube</p><a class="cta-btn cta-btn-sec" href="https://www.youtube.com/watch?v=5aYTRXhVWFA">Watch on YouTube</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gebeya-section">
+        <div class="stay-middle">
+          <div class="flexible flex-spaced">
+            <div class="col-1"><a class="gebeya-logo" href="http://www.gebeya.com" title="gebeya.com"></a></div>
+            <div class="col-1">
+              <p> And now I am learning professional software development in <a href="http://www.gebeya.com" title="Gebeya.com">Gebeya IT Academy.</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="bio-section">
+        <div class="stay-middle">
+          <div class="flexible flex-center">
+            <div class="col-2">
+              <p> Want to read the longer version of my story?</p><a class="cta-btn cta-btn-sec" href="../pages/bio.html">Read my bio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="form-section">
+        <div class="stay-middle">
+          <div class="flexible flex-center">
+            <div class="col-2">
+              <p class="small_p">Send Me Your Feedback</p>
+              <div class="form-container">
+                <form method="POST" action="//formspree.io/kismaelkemal@gmail.com" id="contactForm">
+                  <div class="contact-info">
+                    <input class="form-name" type="text" name="name" placeholder="Name">
+                    <input class="form-email" type="email" name="_replyto" placeholder="Email">
+                  </div>
+                  <textarea name="message" placeholder="Write your messages"></textarea>
+                  <input type="text" style="display:none" name="_gotcha">
+                  <input type="hidden" name="_next" value="thanks.html">
+                  <input type="hidden" name="_subject" value="Website contact form submittion">
+                  <div class="btns">
+                    <input class="btn-send" type="submit" value="Send">
+                    <input class="btn-reset" type="reset" value="Reset">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact-section">
+        <div class="stay-middle">
+          <div class="flexible flex-center">
+            <div class="col-2">
+              <p class="small_p"> Contact me with</p>
+              <hr class="_hr">
+              <div class="big-email"><a class="XBig" href="mailto:kismaelkemal@gmail.com">kismaelkemal@gmail.com</a></div>
+              <div class="social-links">
+                <li><a class="fa-facebook" href="http://facebook.com/ismaelkd3" target="_blank" title="facebook"></a></li>
+                <li><a class="fa-github" href="http://github.com/ismaelkedir" target="_blank" title="github"></a></li>
+                <li><a class="fa-twitter" href="http://twitter.com/ismaelkd4" target="_blank" title="twitter"></a></li>
+              </div>
+              <p class="small_p">Copyright &copy; 2017 Ismael Kedir Portfolio website. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- google analytics code-->
+    <script src="assets/js/analytics.js"></script>
+  </body>
+</html>
